@@ -1,0 +1,8 @@
+# TODO List
+
+FRONTEND:
+ - create cards to direct to specific majors
+ - create select menu for courses taken
+
+BACKEND:
+ - process courses and format them for the LLM
