@@ -27,4 +27,8 @@ def answer_question():
         })
     )
 
+@app.route("/get_description/<str:major_name>")
+def get_description(major_name):
+    pass
+
     

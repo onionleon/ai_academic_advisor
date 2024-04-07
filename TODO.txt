@@ -2,7 +2,9 @@
 
 FRONTEND:
  - create cards to direct to specific majors
+ -> in progress: create python function to get description of major
  - create select menu for courses taken
 
 BACKEND:
  - process courses and format them for the LLM
+ - create python function to get description of major
