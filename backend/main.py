@@ -1,4 +1,4 @@
-from config import app
+from config import app, db
 from flask import request, jsonify
 from rag_pipeline import Advisor
 
