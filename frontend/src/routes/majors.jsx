@@ -25,7 +25,7 @@ function Majors () {
                             <Card.Img variant="top" src="../assets/applied.jpg" />
                             <Card.Body>
                                 <Card.Title>Acturial Science</Card.Title>
-                                <InfoModal major="Acturial Science" description="test"></InfoModal>
+                                <InfoModal major="Acturial Science" description={test_description}></InfoModal>
                             </Card.Body>
                         </Card>
                     </Col>
