@@ -12,6 +12,8 @@ function Majors () {
         
     }
 
+    let test_description = "In this program, you'll take courses such as the mathematics of finance, risk theory, and pension mathematics taught by professional actuaries in one of North America’s top actuarial schools. \n \n Waterloo Actuarial Science graduates commonly pursue careers in finance, management, education, actuary, risk analysis, and consulting. They often work at insurance companies, financial institutions, schools, and more \n \n Jobs that students pursue after graduation include: \n • Financial Business Analyst \n • Senior Actuarial Analyst \n • Advisory Analyst \n • Risk Modeling Analyst"
+
     return (
         <>
             <div style={{ 
