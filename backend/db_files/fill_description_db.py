@@ -20,6 +20,6 @@ with app.app_context():
         new_major = Major(major_name=major["major_name"], description=major["description"])
         db.session.add(new_major)
 
-    db.session.commit()
+        db.session.commit()
 
 print("\n Succesfuly added new majors to the database \n")
