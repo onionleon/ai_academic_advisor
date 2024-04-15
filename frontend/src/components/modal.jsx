@@ -23,7 +23,7 @@ const InfoModal = ({major, description}) => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ color: 'white', backgroundColor: '#292b2c' }}>{
-        description.split('\n').map((line, index) => (
+        description.split('*').map((line, index) => (
         <React.Fragment key={index}>
         {line}
         <br />

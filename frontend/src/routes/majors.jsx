@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import InfoModal from "../components/modal"
+import '../index.css'
 
 function Majors () {
     
@@ -16,14 +17,17 @@ function Majors () {
 
     return (
         <>
-            <div style={{ 
-                background: 'linear-gradient(90deg,#6488ea,#102c7a)',
-                minHeight: '100vh'
-                }}>
+            
+            
+            <div className='custom_background'>
+            <div class="info-container">
+                <h2>University of Waterloo Mathematics Majors</h2>
+                <p>This section provides an overview of the various Mathematics Majors offered at the University of Waterloo. Discover detailed information about each program, including curriculum highlights, career prospects, and how to apply.</p>
+            </div>
             <Container>
-                <Row className="mb-4" style={{paddingTop: '20px'}}>
+                <Row className="mb-4">
                     <Col>
-                        <Card bg="dark" text= "light" style={{ width: '18rem' }}>
+                        <Card className='card_custom' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="../assets/applied.jpg" />
                             <Card.Body>
                                 <Card.Title>Acturial Science</Card.Title>
