@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 :root {
     --text: #ffffff;
@@ -8,6 +8,12 @@
     --accent: #9d40e9;
   }
 
+
+.font_div {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: "auto";
+  font-style: "normal";
+}
 
 .navbar_custom {
     background-color: var(--background);
@@ -43,8 +49,8 @@
 }
 
 .info-container {
-    font-family: 'Poppins', sans-serif;
     background-color:var(--background);
+    font-family: 'Fira Code', monospace;
     color: var(--text);
     padding-top: 0px;
     padding: 20px;
@@ -72,7 +78,6 @@
 
 .d-flex {
     display: flex;
-    font-family: 'Poppins', sans-serif;
     background-color:var(--background);
     color: var(--text);
 
@@ -87,3 +92,79 @@
     background-color:var(--background);
     color: var(--text);
 }
+
+.floating_div {
+  position: relative;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_after {
+  font-size: 350px;
+  line-height: 200px;
+  margin: 0;
+  color: #f0f0f0;
+  z-index: 0;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff;
+}
+
+#text_before {
+  font-size: 350px;
+  line-height: 200px;
+  margin: 0;
+  color: #010b2d;
+  z-index: 0;
+}
+
+.hover_button {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 0;
+  font-size: 14px;
+  color: #fff;
+  background-color: #366bc1;
+  padding: 10px 30px;
+  border: none;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 25px;
+  transition : 944ms;
+  display: flex;
+  flex-direction: row;
+}
+
+.hover_button:hover{
+  transition : 944ms;
+  padding: 10px 48px;
+  background-color: #fff;
+  color: #366bc1;
+  border: none;
+}
+
+.sidebar {
+  background: var(--background);  
+  color: var(--text) !important;  
+}
+
+.custom-dropdown .dropdown-menu {
+  background-color:var(--background);  
+  max-width: 100px !important;
+}
+
+.text-white {
+  color: var(--text) !important;  
+}
+

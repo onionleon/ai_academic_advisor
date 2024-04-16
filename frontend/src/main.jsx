@@ -6,7 +6,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import ErrorPage from "./routes/error-page";
 import Home from './routes/home'
 import Contact from './routes/contact'
-import Majors from './routes/majors'
+import MajorList from './routes/major'
 import {
   createBrowserRouter,
   RouterProvider
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "majors",
-        element: <Majors />,
+        element: <MajorList />,
       },
       {
         path: "contact",
