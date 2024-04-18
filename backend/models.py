@@ -5,11 +5,13 @@ class Major(db.Model):
     major_name = db.Column(db.String(50), unique=True, nullable=False)
     description = db.Column(db.String(500), nullable=False)
     initials = db.Column(db.String(10))
+    route = db.Column(db.String(50), unique=True)
 
     def to_json(self):
         return {
             "id": self.id,
             "major": self.major_name,
             "description": self.description,
-            "initials": self.initials
+            "initials": self.initials,
+            "route": self.route
         }
